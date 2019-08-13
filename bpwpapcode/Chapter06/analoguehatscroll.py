@@ -20,7 +20,7 @@ if pygame.joystick.get_count() > 0:
     joystick.init()
 
 if joystick is None:
-    print "Sorry, you need a joystick for this!"
+    print("Sorry, you need a joystick for this!")
     exit()
 
 while True:

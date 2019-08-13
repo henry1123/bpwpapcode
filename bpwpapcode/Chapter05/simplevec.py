@@ -44,5 +44,5 @@ step = AB * .1
 position = Vector2(*A)
 for n in range(10):
     position += step
-    print position
+    print(position)
 

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="273d32f3-7338-480e-964c-ce3b68388ff9" name="Default Changelist" comment="" />
+    <list default="true" id="273d32f3-7338-480e-964c-ce3b68388ff9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04/sushiplate.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter04/drawinglines.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter04/drawinglines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter05/gotest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/gotest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter05/simplevec.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/simplevec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter05/vecmagniture.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05/vecmagniture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter06/analoguehatscroll.py" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter06/analoguehatscroll.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,27 +20,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameClockDemo/gamedemo.py">
+        <entry file="file://$PROJECT_DIR$/Chapter05/diagonalmovement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-774">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-              <folding>
-                <element signature="e#6158#6189#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-151" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter05/frameratecompare.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-108" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter05/gotest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GameClockDemo/gameclock.py">
+        <entry file="file://$PROJECT_DIR$/Chapter05/simplemove.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter05/simplevec.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1679">
-              <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
+            <state relative-caret-position="828">
+              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter05/vecmagniture.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter05/vectormovement.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter06/analoguehatscroll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -45,6 +97,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -57,15 +112,21 @@
         <option value="$PROJECT_DIR$/GameClock/gamedemo.py" />
         <option value="$PROJECT_DIR$/GameClock/gameclock.py" />
         <option value="$PROJECT_DIR$/GameClockDemo/gamedemo.py" />
+        <option value="$PROJECT_DIR$/Chapter04/drawinglines.py" />
+        <option value="$PROJECT_DIR$/Chapter05/gotest.py" />
+        <option value="$PROJECT_DIR$/Chapter05/simplevec.py" />
+        <option value="$PROJECT_DIR$/Chapter05/vecmagniture.py" />
+        <option value="$PROJECT_DIR$/Chapter06/analoguehatscroll.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="174" />
-    <option name="y" value="58" />
+    <option name="x" value="446" />
+    <option name="y" value="32" />
     <option name="width" value="1211" />
     <option name="height" value="969" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -78,6 +139,16 @@
               <item name="bpwpapcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="bpwpapcode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="bpwpapcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bpwpapcode" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bpwpapcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bpwpapcode" type="462c0819:PsiDirectoryNode" />
+              <item name="GameClockDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -86,12 +157,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Chapter04" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Python Projects\beg-game-dev-w-python-pygame-master\bpwpapcode\Chapter04" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -105,8 +182,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gamedemo">
-    <configuration name="allcolors" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.analoguehatscroll">
+    <configuration name="analoguehatscroll" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bpwpapcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,12 +191,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter06" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter04/allcolors.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter06/analoguehatscroll.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -128,7 +205,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="arctest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="simplevec" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bpwpapcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -136,12 +213,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter04" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter04/arctest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter05/simplevec.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,7 +227,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gamedemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="timebasedmovement" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bpwpapcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -158,12 +235,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GameClockDemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GameClockDemo/gamedemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter05/timebasedmovement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +249,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="resize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="vecmagniture" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bpwpapcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,12 +257,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/resize.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter05/vecmagniture.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +271,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scrolly" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="vectormovement" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="bpwpapcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -202,12 +279,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter03" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Chapter05" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter03/scrolly.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Chapter05/vectormovement.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.gamedemo" />
-        <item itemvalue="Python.scrolly" />
-        <item itemvalue="Python.arctest" />
-        <item itemvalue="Python.allcolors" />
-        <item itemvalue="Python.resize" />
+        <item itemvalue="Python.analoguehatscroll" />
+        <item itemvalue="Python.vectormovement" />
+        <item itemvalue="Python.vecmagniture" />
+        <item itemvalue="Python.timebasedmovement" />
+        <item itemvalue="Python.simplevec" />
       </list>
     </recent_temporary>
   </component>
@@ -237,22 +314,23 @@
       <option name="presentableId" value="Default" />
       <updated>1565595887766</updated>
       <workItem from="1565595897674" duration="2935000" />
-      <workItem from="1565674218546" duration="2569000" />
+      <workItem from="1565674218546" duration="5664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5504000" />
+    <option name="totallyTimeSpent" value="8599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1340812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14581066" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.48309705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -274,14 +352,26 @@
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bpwpapcode$tankgame.coverage" NAME="tankgame Coverage Results" MODIFIED="1565596400463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
-    <SUITE FILE_PATH="coverage/bpwpapcode$events.coverage" NAME="events Coverage Results" MODIFIED="1565597257893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$vectormovement.coverage" NAME="vectormovement Coverage Results" MODIFIED="1565683527928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter05" />
     <SUITE FILE_PATH="coverage/bpwpapcode$arctest.coverage" NAME="arctest Coverage Results" MODIFIED="1565674236863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
-    <SUITE FILE_PATH="coverage/bpwpapcode$gamedemo.coverage" NAME="gamedemo Coverage Results" MODIFIED="1565675714970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameClockDemo" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$multiplelines.coverage" NAME="multiplelines Coverage Results" MODIFIED="1565683070109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$gamedemo.coverage" NAME="gamedemo Coverage Results" MODIFIED="1565677164714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GameClockDemo" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$diagonalmovement.coverage" NAME="diagonalmovement Coverage Results" MODIFIED="1565683168391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter05" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$gotest.coverage" NAME="gotest Coverage Results" MODIFIED="1565683289332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter05" />
     <SUITE FILE_PATH="coverage/bpwpapcode$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1565596937932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$frameratecompare.coverage" NAME="frameratecompare Coverage Results" MODIFIED="1565683227832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter05" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$vecmagniture.coverage" NAME="vecmagniture Coverage Results" MODIFIED="1565683505876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter05" />
     <SUITE FILE_PATH="coverage/bpwpapcode$scrolly.coverage" NAME="scrolly Coverage Results" MODIFIED="1565674800909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$simplemove.coverage" NAME="simplemove Coverage Results" MODIFIED="1565683427427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter05" />
     <SUITE FILE_PATH="coverage/bpwpapcode$resize.coverage" NAME="resize Coverage Results" MODIFIED="1565597388623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
     <SUITE FILE_PATH="coverage/bpwpapcode$fullscreentest.coverage" NAME="fullscreentest Coverage Results" MODIFIED="1565597314994" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$drawinglines.coverage" NAME="drawinglines Coverage Results" MODIFIED="1565683007353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$tankgame.coverage" NAME="tankgame Coverage Results" MODIFIED="1565596400463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter02" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$events.coverage" NAME="events Coverage Results" MODIFIED="1565597257893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter03" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$timebasedmovement.coverage" NAME="timebasedmovement Coverage Results" MODIFIED="1565683470501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter05" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$polytest.coverage" NAME="polytest Coverage Results" MODIFIED="1565683105597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$simplevec.coverage" NAME="simplevec Coverage Results" MODIFIED="1565683454494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter05" />
+    <SUITE FILE_PATH="coverage/bpwpapcode$analoguehatscroll.coverage" NAME="analoguehatscroll Coverage Results" MODIFIED="1565683686860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter06" />
     <SUITE FILE_PATH="coverage/bpwpapcode$allcolors.coverage" NAME="allcolors Coverage Results" MODIFIED="1565598717264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Chapter04" />
   </component>
   <component name="editorHistoryManager">
@@ -375,18 +465,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/polytest.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/multiplelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04/drawinglines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GameClockDemo/gamedemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-774">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="173">
+          <caret line="349" column="23" lean-forward="true" selection-start-line="349" selection-start-column="16" selection-end-line="350" selection-end-column="26" />
           <folding>
             <element signature="e#6158#6189#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05/diagonalmovement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05/frameratecompare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-108" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05/gotest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05/simplemove.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05/simplevec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05/vecmagniture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05/vectormovement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter06/analoguehatscroll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="10" lean-forward="true" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

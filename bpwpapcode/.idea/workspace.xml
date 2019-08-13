@@ -13,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameClockDemo/gamedemo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1602">
+            <state relative-caret-position="-774">
               <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="e#6158#6189#0" expanded="true" />
@@ -23,9 +23,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameClockDemo/gameclock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2790">
+            <state relative-caret-position="-1679">
               <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
             </state>
           </provider>
@@ -72,11 +77,6 @@
             <path>
               <item name="bpwpapcode" type="b2602c69:ProjectViewProjectNode" />
               <item name="bpwpapcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bpwpapcode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bpwpapcode" type="462c0819:PsiDirectoryNode" />
-              <item name="GameClockDemo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -237,23 +237,22 @@
       <option name="presentableId" value="Default" />
       <updated>1565595887766</updated>
       <workItem from="1565595897674" duration="2935000" />
-      <workItem from="1565674218546" duration="2088000" />
+      <workItem from="1565674218546" duration="2569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5023000" />
+    <option name="totallyTimeSpent" value="5504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3297062" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14581066" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14581066" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -369,9 +368,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/GameClockDemo/gameclock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1679">
+          <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GameClockDemo/gamedemo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1602">
+        <state relative-caret-position="-774">
           <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
           <folding>
             <element signature="e#6158#6189#0" expanded="true" />
@@ -379,12 +385,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GameClockDemo/gameclock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2790">
-          <caret line="294" lean-forward="true" selection-start-line="294" selection-end-line="294" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/README.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

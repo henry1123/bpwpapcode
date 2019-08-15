@@ -1,32 +1,28 @@
 SCREEN_SIZE = (800, 600)
 
-from math import radians
-
+import pygame
 from OpenGL.GL import *
 from OpenGL.GLU import *
-
-import pygame
 from pygame.locals import *
 
 
 def resize(width, height):
-
     glViewport(0, 0, width, height)
     glMatrixMode(GL_PROJECTION)
     glLoadIdentity()
-    gluPerspective(60.0, float(width)/height, .1, 1000.)
+    gluPerspective(60.0, float(width) / height, .1, 1000.)
     glMatrixMode(GL_MODELVIEW)
     glLoadIdentity()
 
-def init():
 
+def init():
     glEnable(GL_TEXTURE_2D)
     glClearColor(1.0, 1.0, 1.0, 0.0)
 
-def run():
 
+def run():
     pygame.init()
-    screen = pygame.display.set_mode(SCREEN_SIZE, HWSURFACE|OPENGL|DOUBLEBUF)
+    screen = pygame.display.set_mode(SCREEN_SIZE, HWSURFACE | OPENGL | DOUBLEBUF)
 
     resize(*SCREEN_SIZE)
     init()
@@ -42,8 +38,8 @@ def run():
     glBindTexture(GL_TEXTURE_2D, texture_id)
 
     # Tell OpenGL how to scale images
-    glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR )
-    glTexParameteri( GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR )
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR)
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR)
 
     # Tell OpenGL that data is aligned to byte boundries
     glPixelStorei(GL_UNPACK_ALIGNMENT, 1)
@@ -52,21 +48,20 @@ def run():
     width, height = texture_surface.get_rect().size
 
     # Upload the image to OpenGL
-    glTexImage2D( GL_TEXTURE_2D,
-                  0,
-                  3,
-                  width,
-                  height,
-                  0,
-                  GL_RGB,
-                  GL_UNSIGNED_BYTE,
-                  texture_data)
-
+    glTexImage2D(GL_TEXTURE_2D,
+                 0,
+                 3,
+                 width,
+                 height,
+                 0,
+                 GL_RGB,
+                 GL_UNSIGNED_BYTE,
+                 texture_data)
 
     clock = pygame.time.Clock()
 
     tex_rotation = 0.0
-    
+
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE)
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE)
 
@@ -76,11 +71,9 @@ def run():
             if event.type == QUIT:
                 return
 
-
         time_passed = clock.tick()
         time_passed_seconds = time_passed / 1000.
         tex_rotation += time_passed_seconds * 360.0 / 8.0
-
 
         # Clear the screen (similar to fill)
         glClear(GL_COLOR_BUFFER_BIT)
@@ -94,7 +87,7 @@ def run():
 
         # Draw a quad (4 vertices, 4 texture coords)
         glBegin(GL_QUADS)
-    
+
         glTexCoord2f(0, 3)
         glVertex3f(-300, 300, 0)
 
@@ -112,6 +105,7 @@ def run():
         pygame.display.flip()
 
     glDeleteTextures(texture_id)
+
 
 if __name__ == "__main__":
     run()

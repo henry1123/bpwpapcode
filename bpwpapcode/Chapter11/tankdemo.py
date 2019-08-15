@@ -1,28 +1,23 @@
 SCREEN_SIZE = (800, 600)
 
-from math import radians
-
-from OpenGL.GL import *
-from OpenGL.GLU import *
-
-import pygame
-from pygame.locals import *
-
 # Import the Model3D class
 import model3d
+import pygame
+from OpenGL.GL import *
+from OpenGL.GLU import *
+from pygame.locals import *
+
 
 def resize(width, height):
-
     glViewport(0, 0, width, height)
     glMatrixMode(GL_PROJECTION)
     glLoadIdentity()
-    gluPerspective(60.0, float(width)/height, .1, 1000.)
+    gluPerspective(60.0, float(width) / height, .1, 1000.)
     glMatrixMode(GL_MODELVIEW)
     glLoadIdentity()
 
 
 def init():
-
     # Enable the GL features we will be using
     glEnable(GL_DEPTH_TEST)
     glEnable(GL_LIGHTING)
@@ -31,7 +26,7 @@ def init():
     glEnable(GL_CULL_FACE)
 
     glShadeModel(GL_SMOOTH)
-    glClearColor(1.0, 1.0, 1.0, 0.0) # white
+    glClearColor(1.0, 1.0, 1.0, 0.0)  # white
 
     # Set the material
     glMaterial(GL_FRONT, GL_AMBIENT, (0.0, 0.0, 0.0, 1.0))
@@ -46,13 +41,12 @@ def init():
 
     # Enable light 1 and set position
     glEnable(GL_LIGHT0)
-    glLight(GL_LIGHT0, GL_POSITION,  (0, .5, 1, 0))
+    glLight(GL_LIGHT0, GL_POSITION, (0, .5, 1, 0))
 
 
 def run():
-
     pygame.init()
-    screen = pygame.display.set_mode(SCREEN_SIZE, HWSURFACE|OPENGL|DOUBLEBUF)
+    screen = pygame.display.set_mode(SCREEN_SIZE, HWSURFACE | OPENGL | DOUBLEBUF)
 
     resize(*SCREEN_SIZE)
     init()
@@ -86,7 +80,7 @@ def run():
         tank_model.draw_quick()
 
         pygame.display.flip()
-            
+
 
 if __name__ == "__main__":
     run()

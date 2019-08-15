@@ -1,9 +1,10 @@
 picture_file = 'cat.jpg'
 
-import pygame
-from pygame.locals import *
 from sys import exit
+
+import pygame
 from gameobjects.vector2 import Vector2
+from pygame.locals import *
 
 pygame.init()
 screen = pygame.display.set_mode((640, 480), 0, 32)
@@ -20,24 +21,25 @@ if pygame.joystick.get_count() > 0:
     joystick.init()
 
 if joystick is None:
-    print "Sorry, you need a joystick for this!"
+    print
+    "Sorry, you need a joystick for this!"
     exit()
 
 while True:
-    
+
     for event in pygame.event.get():
         if event.type == QUIT:
             exit()
-    
-    scroll_direction = Vector2(*joystick.get_hat(0))    
-    scroll_direction.normalize()    
-                
+
+    scroll_direction = Vector2(*joystick.get_hat(0))
+    scroll_direction.normalize()
+
     screen.fill((255, 255, 255))
-    screen.blit(picture, (-picture_pos.x, picture_pos.y))    
-    
+    screen.blit(picture, (-picture_pos.x, picture_pos.y))
+
     time_passed = clock.tick()
     time_passed_seconds = time_passed / 1000.0
-    
-    picture_pos += scroll_direction * scroll_speed * time_passed_seconds    
-    
-    pygame.display.update()    
+
+    picture_pos += scroll_direction * scroll_speed * time_passed_seconds
+
+    pygame.display.update()

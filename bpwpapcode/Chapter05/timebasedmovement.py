@@ -1,9 +1,10 @@
 background_image_filename = 'sushiplate.jpg'
 sprite_image_filename = 'fugu.png'
 
+from sys import exit
+
 import pygame
 from pygame.locals import *
-from sys import exit
 
 pygame.init()
 
@@ -21,22 +22,22 @@ x = 0.
 speed = 250.
 
 while True:
-    
+
     for event in pygame.event.get():
         if event.type == QUIT:
             exit()
-    
-    screen.blit(background, (0,0))
-    screen.blit(sprite, (x, 100))    
-    
+
+    screen.blit(background, (0, 0))
+    screen.blit(sprite, (x, 100))
+
     time_passed = clock.tick()
     time_passed_seconds = time_passed / 1000.0
-    
+
     distance_moved = time_passed_seconds * speed
     x += distance_moved
-    
+
     # If the image goes off the end of the screen, move it back
     if x > 640.:
-        x = 0.    
-        
+        x = 0.
+
     pygame.display.update()

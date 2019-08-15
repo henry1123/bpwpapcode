@@ -1,10 +1,11 @@
 background_image_filename = 'sushiplate.jpg'
 sprite_image_filename = 'fugu.png'
 
-import pygame
-from pygame.locals import *
 from sys import exit
+
+import pygame
 from gameobjects.vector2 import Vector2
+from pygame.locals import *
 
 pygame.init()
 
@@ -19,13 +20,13 @@ sprite_pos = Vector2(200, 150)
 sprite_speed = 300.
 
 while True:
-    
+
     for event in pygame.event.get():
         if event.type == QUIT:
             exit()
-        
+
     pressed_keys = pygame.key.get_pressed()
-    
+
     key_direction = Vector2(0, 0)
     if pressed_keys[K_LEFT]:
         key_direction.x = -1
@@ -35,15 +36,15 @@ while True:
         key_direction.y = -1
     elif pressed_keys[K_DOWN]:
         key_direction.y = +1
-            
-    #key_direction.normalize()
-                
-    screen.blit(background, (0,0))
+
+    # key_direction.normalize()
+
+    screen.blit(background, (0, 0))
     screen.blit(sprite, sprite_pos)
-    
+
     time_passed = clock.tick()
     time_passed_seconds = time_passed / 1000.0
-    
-    sprite_pos+= key_direction * sprite_speed * time_passed_seconds
-            
-    pygame.display.update()    
+
+    sprite_pos += key_direction * sprite_speed * time_passed_seconds
+
+    pygame.display.update()

@@ -29,7 +29,7 @@ while True:
 
     for i in range(3):
         for j in range(3):
-            screen.blit(background, (i*640, j*480))
+            screen.blit(background, (i * 640, j * 480))
 
     fps = font.render(str(int(clock.get_fps())), True, pygame.Color('white'))
     screen.blit(fps, (50, 50))
@@ -45,4 +45,3 @@ while True:
     pygame.display.flip()
 
     #  clock.tick(30)  # 每秒 30 次
-

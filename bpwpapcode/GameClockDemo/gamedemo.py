@@ -112,10 +112,10 @@ Stats:
         occurred during the previous second.
 """
 
-from gameclock import GameClock
-
 import random
+
 import pygame
+from gameclock import GameClock
 from pygame.locals import (
     Color, QUIT, KEYDOWN, K_ESCAPE, K_TAB, K_1, K_b, K_k, K_l, K_m, K_p, K_w,
 )

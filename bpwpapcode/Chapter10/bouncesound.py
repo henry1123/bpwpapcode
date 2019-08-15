@@ -5,14 +5,14 @@ GRAVITY = 250.0
 # Increase for more bounciness, but don't go over 1!
 BOUNCINESS = 0.7
 
-import pygame
-from pygame.locals import *
 from random import randint
+
+import pygame
 from gameobjects.vector2 import Vector2
+from pygame.locals import *
 
 
 def stero_pan(x_coord, screen_width):
-
     right_volume = float(x_coord) / screen_width
     left_volume = 1.0 - right_volume
 
@@ -36,8 +36,8 @@ class Ball(object):
         screen_width, screen_height = SCREEN_SIZE
 
         x, y = self.position
-        x -= w/2
-        y -= h/2
+        x -= w / 2
+        y -= h / 2
 
         # Has the ball bounce
         bounce = False
@@ -70,7 +70,6 @@ class Ball(object):
 
         self.age += time_passed
 
-
     def play_bounce_sound(self):
 
         channel = self.bounce_sound.play()
@@ -80,26 +79,25 @@ class Ball(object):
             left, right = stero_pan(self.position.x, SCREEN_SIZE[0])
             channel.set_volume(left, right)
 
-
     def render(self, surface):
 
         # Draw the sprite center at self.position
         w, h = self.image.get_size()
         x, y = self.position
-        x -= w/2
-        y -= h/2
+        x -= w / 2
+        y -= h / 2
         surface.blit(self.image, (x, y))
 
 
 def run():
-
     # Initialise 44KHz 16-bit stero sound
-    pygame.mixer.pre_init(44100, 16, 2, 1024*4)
+    pygame.mixer.pre_init(44100, 16, 2, 1024 * 4)
     pygame.init()
     pygame.mixer.set_num_channels(8)
     screen = pygame.display.set_mode(SCREEN_SIZE, 0)
 
-    print pygame.display.get_wm_info()
+    print
+    pygame.display.get_wm_info()
     hwnd = pygame.display.get_wm_info()["window"]
     import win32gui
     import win32con
@@ -126,13 +124,12 @@ def run():
                 return
 
             if event.type == MOUSEBUTTONDOWN:
-
                 # Create a new ball at the mouse position
-                random_speed = ( randint(-400, 400), randint(-300, 0) )
-                new_ball = Ball( event.pos,
-                                 random_speed,
-                                 ball_image,
-                                 bounce_sound )
+                random_speed = (randint(-400, 400), randint(-300, 0))
+                new_ball = Ball(event.pos,
+                                random_speed,
+                                ball_image,
+                                bounce_sound)
                 balls.append(new_ball)
 
         time_passed_seconds = clock.tick() / 1000.
@@ -152,7 +149,6 @@ def run():
 
         # remove any 'dead' balls from the main list
         for ball in dead_balls:
-
             balls.remove(ball)
 
         # Draw the mouse cursor
@@ -161,6 +157,6 @@ def run():
 
         pygame.display.update()
 
-if __name__ == "__main__":
 
+if __name__ == "__main__":
     run()
